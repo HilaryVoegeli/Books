@@ -1,0 +1,42 @@
+/*
+    Colors and styles on cards are from bootstrap
+
+    colors:
+    https://getbootstrap.com/docs/4.5/getting-started/theming/#css-variables
+
+    cards:
+    https://getbootstrap.com/docs/4.5/components/card/
+*/
+
+.card {
+  margin-bottom: 25px;
+  border-color: darkmagenta;
+  border-width: 2px;
+}
+
+.card-header {
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+}
+
+.card-body {
+  background-color: lightgray;
+}
+
+.card-title {
+  color: royalblue;
+  font-style: italic;
+  font-size: 2em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.card-footer {
+  font-style:oblique;
+  background-color: rgb(241, 240, 240);
+}
+
+h1 {
+  padding-left: 3em;
+}
